@@ -41,7 +41,7 @@ public class Main {
 		}
 		
 		Tablero tablero1 = new Tablero(100,vect);
-		
+		tablero1.imprimirTablero();
 		
 	}
 
