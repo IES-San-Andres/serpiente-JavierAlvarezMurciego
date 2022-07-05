@@ -27,7 +27,26 @@ public class Tablero {
 	}
 	
 	public void imprimirTablero() {
-		System.out.println(casillas);
+		
+		for(int i=0;i<casillas.length;i++ ) {
+			if(i%10==0) {
+				System.out.print("\n");
+				System.out.print("|");
+			}
+			if(i>=90 && i<=99) {
+				System.out.print("_");
+			}
+			if(i>=0 && i<=9) {
+				System.out.print("-");
+			}
+			System.out.print(" ");
+			if((i+1)%10==0) {
+				System.out.print("|");
+				System.out.print("\t");
+			}
+
+		}
+		
 	}
 	
 }

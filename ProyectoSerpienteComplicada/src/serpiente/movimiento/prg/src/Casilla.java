@@ -24,5 +24,10 @@ public class Casilla {
 	public void setColumna(int columna) {
 		this.columna = columna;
 	}
+
 	
+	public String toString() {
+		return String.valueOf(fila+ columna);
+	}
+		
 }
